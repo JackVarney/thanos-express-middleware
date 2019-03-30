@@ -1,6 +1,7 @@
 # thanos-express-middleware
-## Perfectly balanced.
+
+## Perfectly balanced as all things should be
 
 Express middleware that rejects every other request
 
-npm i --save thanos-express-middleware 
+npm i --save thanos-express-middleware
