@@ -7,9 +7,7 @@ chai.should();
 chai.use(chaiHttp);
 
 describe('thanos', () => {
-  var app;
-
-  app = express();
+  var app = express();
 
   app.get('/', thanos, (req, res, next) => {
     res.status(200).json("Thank god you're alive");
